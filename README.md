@@ -1,4 +1,8 @@
 # Airflow Production Workflow
 
-This repository demonstrates a production-like Airflow project structure,
-including DAGs, plugins, configuration, documentation, and CI/CD files.
+Simple demonstration of a production-like Airflow project structure:
+- DAGs
+- plugins
+- configuration
+- documentation
+- CI/CD

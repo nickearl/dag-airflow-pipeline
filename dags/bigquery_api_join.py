@@ -23,7 +23,7 @@ def bigquery_api_join(**kwargs):
     logger = logging.getLogger("airflow.task")
     bucket = 'ne-bi-demo'
     try:
-        # Parameterization via Airflow Variables
+        # parameterization via Airflow Variables
         bq_source_query = Variable.get("bq_source_query", default_var="SELECT * FROM `bi.demo.source_table`")
         bq_destination_table = Variable.get("bq_destination_table", default_var="bi.demo.destination_table")
         api_endpoint = Variable.get("api_endpoint", default_var="https://api.worldbank.org/v2/country")
