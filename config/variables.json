@@ -1,0 +1,7 @@
+{
+  "bq_source_query": "SELECT * FROM `bi.demo.source_table`",
+  "bq_destination_table": "bi.demo.joined_table",
+  "api_endpoint": "https://api.worldbank.org/v2/country",
+  "mapping_s3_bucket": "ne-bi-demo",
+  "mapping_s3_key": "mapping_files/country_map.csv"
+}

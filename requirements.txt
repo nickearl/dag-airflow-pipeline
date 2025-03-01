@@ -1,0 +1,5 @@
+apache-airflow
+awswrangler
+google-cloud-bigquery
+requests
+pandas
